@@ -33,11 +33,11 @@ Comandos Git
 	git reset --hard id_versionamento	-> Volta ao versionamento antigo sem nenhum tipo de alteração, tudo que feito depois desse 													versionamento selecionado será deletado
 
 	git commit -am "Texto explicando oque foi feito".
-				/\
-				||
-			   -am  -> Conjunto de comandos para mapear todos os arquivos que estão dentro da pasta e adicionar um menssagem.
-			   			Mapeia todos os arquivos da pasta (-a).
-			   			Adiciona uma menssagem ao Commit  (-m).	
-						
+		    /\
+		    ||
+		   -am  -> Conjunto de comandos para mapear todos os arquivos que estão dentro da pasta e adicionar um menssagem.
+					Mapeia todos os arquivos da pasta (-a).
+					Adiciona uma menssagem ao Commit  (-m).	
+
 	FINAL
 
