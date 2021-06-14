@@ -6,7 +6,11 @@ Nomenclaturas
 
 
 Comandos Git
-	git init
+	git init -> Cria um novo repositorio na pasta do proejeto.
+	
+	git commit -A -> Mapeia todos os arquivos da pasta ao repositorio.
+	
+	git commit Nome_Arquivo -> Mapeia apenas um arquivo.
 	
 	git log -> Mostra todos os commits feito no branch selecionado.
 
