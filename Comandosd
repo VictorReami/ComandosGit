@@ -32,4 +32,6 @@ Comandos Git
 			   -am  -> Conjunto de comandos para mapear todos os arquivos que estão dentro da pasta e adicionar um menssagem.
 			   			Mapeia todos os arquivos da pasta (-a).
 			   			Adiciona uma menssagem ao Commit  (-m).	
+						
+	FINAL
 
