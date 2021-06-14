@@ -6,6 +6,8 @@ Nomenclaturas
 
 
 Comandos Git
+	git init
+	
 	git log -> Mostra todos os commits feito no branch selecionado.
 
 	git branch -> Mostra em qual branch(versionamento) você está.
