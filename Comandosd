@@ -1,0 +1,35 @@
+Curso Git
+	https://www.youtube.com/watch?v=OuOb1_qADBQ
+
+Nomenclaturas
+	branch -> É o nome dado ao versionamento. O branch Master sempre será o versionamento principal.
+
+
+Comandos Git
+	git log -> Mostra todos os commits feito no branch selecionado.
+
+	git branch -> Mostra em qual branch(versionamento) você está.
+
+	git branch novo -> Cria um novo branch(versionamento) no seu repositorio. Quando um novo branch é criado todos os arquivos e commits do 					branch atual são importados para o novo.
+
+	git checkout Nome_Do_Branch -> Troca o branch(versionamento) que você está acessando. É necessario colocar o nome do branch que você 									quer ir.
+
+	git status -> mostra em qual branch(versionamento) você está e mostra todos os arquivos da pasta, sendo eles os que estão mapeados(Tacked) e os que não estão mapeados(UnTracked).
+
+	git diff -> Mostra a diferença dos arquivos "Comitados" e os não "comitados".
+
+	git diff --name-only -> Mostra apenas os arquivos que foram modificados.
+
+	git diff Nome_Arquivo -> Abre o arquivo e mostra o difereça do arquivo "Comitado" e não "comitado".	
+
+	git reset --soft id_versionamento  	-> Volta ao versionamento antigo pronto para dar commit, ou sejá, apenas para revisão e commitar 											novamente.
+	git reset --mixed id_versionamento	-> Volta ao versionamento antigo com todas as alterações que você tinha feito, porem sem nada estar 										adicionado.
+	git reset --hard id_versionamento	-> Volta ao versionamento antigo sem nenhum tipo de alteração, tudo que feito depois desse 													versionamento selecionado será deletado
+
+	git commit -am "Texto explicando oque foi feito".
+				/\
+				||
+			   -am  -> Conjunto de comandos para mapear todos os arquivos que estão dentro da pasta e adicionar um menssagem.
+			   			Mapeia todos os arquivos da pasta (-a).
+			   			Adiciona uma menssagem ao Commit  (-m).	
+
