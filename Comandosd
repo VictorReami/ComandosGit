@@ -6,12 +6,6 @@ Nomenclaturas
 
 
 Comandos Git
-	git init -> Cria um novo repositorio na pasta do proejeto.
-	
-	git commit -A -> Mapeia todos os arquivos da pasta ao repositorio.
-	
-	git commit Nome_Arquivo -> Mapeia apenas um arquivo.
-	
 	git log -> Mostra todos os commits feito no branch selecionado.
 
 	git branch -> Mostra em qual branch(versionamento) você está.
@@ -28,16 +22,54 @@ Comandos Git
 
 	git diff Nome_Arquivo -> Abre o arquivo e mostra o difereça do arquivo "Comitado" e não "comitado".	
 
+	git remote -> Mostra em qual repositorio online você está conectado
+
+	git remote -v -> com o fetch é possível fazer download dos arquivo na nuvem e push é possivel fazer um commit na nuvem.
+
+	git push -u origin master -> Envia os arquivos do repositorio local para nuvem.
+				/\       
+				||		 
+				origin ->Nome Repositorio
+				master ->Nome do Branch
+				
+
+	git commit -am "Texto explicando oque foi feito".
+				/\
+				||
+			   -am  -> Conjunto de comandos para mapear todos os arquivos que estão dentro da pasta e adicionar um menssagem.
+			   			Mapeia todos os arquivos da pasta (-a).
+			   			Adiciona uma menssagem ao Commit  (-m).	
+
+
 	git reset --soft id_versionamento  	-> Volta ao versionamento antigo pronto para dar commit, ou sejá, apenas para revisão e commitar 											novamente.
 	git reset --mixed id_versionamento	-> Volta ao versionamento antigo com todas as alterações que você tinha feito, porem sem nada estar 										adicionado.
 	git reset --hard id_versionamento	-> Volta ao versionamento antigo sem nenhum tipo de alteração, tudo que feito depois desse 													versionamento selecionado será deletado
 
-	git commit -am "Texto explicando oque foi feito".
-		    /\
-		    ||
-		   -am  -> Conjunto de comandos para mapear todos os arquivos que estão dentro da pasta e adicionar um menssagem.
-					Mapeia todos os arquivos da pasta (-a).
-					Adiciona uma menssagem ao Commit  (-m).	
 
-	FINAL
+Comandos GitHub
+
+	Criar um repositorio Online e Linkar e repositorio local(Git) com o repositorio nuvem(GitHub).
+		Cria uma conta no GitHub.
+		Crie um repositorio onde será adicionado a chave do GIT local.
+		Para o windows é preciso fazer download e instalar o GitBash.
+		Abra o gitBash
+		use o codigo -> ss-keygen -t rsa -b 4090 -C "seu.email@email.com.br"
+			Precisar ser o mesmo e-mail da conta do github
+
+		Será gerado duas chaves public/private e mostrara a pasta onde foi salva.
+		Abra o arquivo da chave publica e copie todo o texto(Codigo).
+		Abra o gitHub no seu navegador
+		Abra o menu/Settings/SSH and GPG keys
+		clique em new SSH key.
+		Adicione um titulo(Nome do usuário) e cole o a chave copiada no campo key.
+		clique em add SSH key.
+		Repositorio Online Criado!
+	
+		Abra no seu navegador o GitHub
+		Abra o repositorio para onde você quer fazer upload
+		use as intruções fornecidas na pagina e copie o codigo disponibilizado.
+			Algo parecido com ->git remote add origin http://github.com/...
+
+		Abra o Bash do git e cole o codigo copiado anteriormente.
+
 
