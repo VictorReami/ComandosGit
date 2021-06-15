@@ -53,7 +53,7 @@ Comandos GitHub
 		Crie um repositorio onde será adicionado a chave do GIT local.
 		Para o windows é preciso fazer download e instalar o GitBash.
 		Abra o gitBash
-		use o codigo -> ss-keygen -t rsa -b 4090 -C "seu.email@email.com.br"
+		use o codigo -> ssh-keygen -t rsa -b 4090 -C "seu.email@email.com.br"
 			Precisar ser o mesmo e-mail da conta do github
 
 		Será gerado duas chaves public/private e mostrara a pasta onde foi salva.
