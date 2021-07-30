@@ -20,7 +20,7 @@ Comandos Git
 
 	git diff --name-only -> Mostra apenas os arquivos que foram modificados.
 
-	git diff Nome_Arquivo -> Abre o arquivo e mostra o difereça do arquivo "Comitado" e não "comitado".	
+	git diff Nome_Arquivo -> Abre o arquivo e mostra o difereça do arquivo "Comitado" e "não comitado".	
 
 	git remote -> Mostra em qual repositorio online você está conectado
 
