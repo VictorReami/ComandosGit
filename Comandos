@@ -4,6 +4,10 @@ Curso Git
 Nomenclaturas
 	branch -> É o nome dado ao versionamento. O branch Master sempre será o versionamento principal.
 
+Primeiros passos:
+	Para iniciar um repositorio com o git é preciso se registar com nome e E-mail.
+	git config --global user.name "victor Molina"
+	git config --global user.email "victor.mreami@gmail.com"
 
 Comandos Git
 	git log -> Mostra todos os commits feito no branch selecionado.
@@ -31,8 +35,9 @@ Comandos Git
 				||		 
 				origin ->Nome Repositorio
 				master ->Nome do Branch
-				
 
+				
+	git add -A -> Mapeia todos os arquivos dentreo da pasta para futuramente utilizar um commit
 	git commit -am "Texto explicando oque foi feito".
 				/\
 				||
