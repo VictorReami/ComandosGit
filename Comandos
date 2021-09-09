@@ -13,6 +13,8 @@ Comandos Git
 	git log -> Mostra todos os commits feito no branch selecionado.
 
 	git branch -> Mostra em qual branch(versionamento) você está.
+	
+	git branch -d Nome_Do_Branch -> deleta o branch.
 
 	git branch novo -> Cria um novo branch(versionamento) no seu repositorio. Quando um novo branch é criado todos os arquivos e commits do 					branch atual são importados para o novo.
 
