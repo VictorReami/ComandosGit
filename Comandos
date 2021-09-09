@@ -41,18 +41,18 @@ Comandos Git
 				master ->Nome do Branch
 
 				
-	git add -A -> Mapeia todos os arquivos dentreo da pasta para futuramente utilizar um commit
+	git add . ou -A -> Mapeia todos os arquivos dentreo da pasta para futuramente utilizar um commit
 	git commit -am "Texto explicando oque foi feito".
-				/\
-				||
-			   -am  -> Conjunto de comandos para mapear todos os arquivos que estão dentro da pasta e adicionar um menssagem.
+		    /\
+		    ||
+	            -am  -> Conjunto de comandos para mapear todos os arquivos que estão dentro da pasta e adicionar um menssagem.
 			   			Mapeia todos os arquivos da pasta (-a).
 			   			Adiciona uma menssagem ao Commit  (-m).	
 
 
 	git reset --soft id_versionamento  	-> Volta ao versionamento antigo pronto para dar commit, ou sejá, apenas para revisão e commitar 											novamente.
-	git reset --mixed id_versionamento	-> Volta ao versionamento antigo com todas as alterações que você tinha feito, porem sem nada estar 										adicionado.
-	git reset --hard id_versionamento	-> Volta ao versionamento antigo sem nenhum tipo de alteração, tudo que feito depois desse 													versionamento selecionado será deletado
+	git reset --mixed id_versionamento	-> Volta ao versionamento antigo com todas as alterações que você tinha feito, porem sem nada estar adicionado.
+	git reset --hard id_versionamento	-> Volta ao versionamento antigo sem nenhum tipo de alteração, tudo que feito depois desse versionamento selecionado será deletado
 
 
 Comandos GitHub
