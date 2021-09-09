@@ -18,7 +18,9 @@ Comandos Git
 
 	git branch novo -> Cria um novo branch(versionamento) no seu repositorio. Quando um novo branch é criado todos os arquivos e commits do 					branch atual são importados para o novo.
 
-	git checkout Nome_Do_Branch -> Troca o branch(versionamento) que você está acessando. É necessario colocar o nome do branch que você 									quer ir.
+	git checkout Nome_Do_Branch -> Troca o branch(versionamento) que você está acessando. É necessario colocar o nome do branch que você quer ir.
+	
+	git checkout -b nomedo branch -> cria um novo branch.
 
 	git status -> mostra em qual branch(versionamento) você está e mostra todos os arquivos da pasta, sendo eles os que estão mapeados(Tacked) e os que não estão mapeados(UnTracked).
 
