@@ -16,7 +16,7 @@ Comandos Git
 	
 	git branch -d Nome_Do_Branch -> deleta o branch.
 
-	git branch novo -> Cria um novo branch(versionamento) no seu repositorio. Quando um novo branch é criado todos os arquivos e commits do 					branch atual são importados para o novo.
+	git branch Nome_Do_Branch -> Cria um novo branch(versionamento) no seu repositorio. Quando um novo branch é criado todos os arquivos e commits do branch atual são importados para o novo branch.
 
 	git checkout Nome_Do_Branch -> Troca o branch(versionamento) que você está acessando. É necessario colocar o nome do branch que você quer ir.
 	
@@ -26,7 +26,7 @@ Comandos Git
 
 	git diff -> Mostra a diferença dos arquivos "Comitados" e os não "comitados".
 
-	git diff --name-only -> Mostra apenas os arquivos que foram modificados.
+	git diff --name-only -> Mostra apenas o nome dos arquivos que foram modificados.
 
 	git diff Nome_Arquivo -> Abre o arquivo e mostra o difereça do arquivo "Comitado" e "não comitado".	
 
